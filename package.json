@@ -1,5 +1,5 @@
 {
-  "name": "cnpj",
+  "name": "cnpj-trimmer",
   "version": "0.1.0",
   "private": true,
   "scripts": {

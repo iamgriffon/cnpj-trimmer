@@ -3,4 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+const debug = process.env.NODE_ENV !== 'production'
+
+module.exports = {nextConfig,
+  assetPrefix: !debug ? '/cnpj-trimmer' : '',
+}

@@ -19,7 +19,7 @@ export function CnpjForm() {
     <div>
       <h1>Insert merchant's TAX ID here: </h1>
       <p>This tool will remove ALL special characters from the TAX ID, leaving only numbers, give a try!</p>
-      <input type="text" name="" id="" onChange={(e) => setCnpj(e.target.value)} value={cnpj} defaultValue={''}/>
+      <input type="text" name="" id="" onChange={(e) => setCnpj(e.target.value)} value={cnpj}/>
 
       <button onClick={() => removeCharacters()}>Remove characters</button>
       <button onClick={() => resetCnpj()}>Reset Tax ID</button><br /><br />
